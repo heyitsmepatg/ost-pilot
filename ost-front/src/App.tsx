@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Row, Col, Select } from "react-materialize";
+import { Row, Col, Select, RadioGroup } from "react-materialize";
 
 const App: React.FC = () => {
   var privacyStyles = { color: "red" };
@@ -244,6 +244,62 @@ const App: React.FC = () => {
             <h5>
               <strong>Citizenship Information</strong>
             </h5>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <Row>
+              <Col>
+                <label>
+                  Select the option that best reflects your current citizenship
+                  status.
+                </label>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col>
+                <p>
+                  <label>
+                    <input
+                      type="radio"
+                      name="citizenship"
+                      value="citizen-born"
+                    />
+                    <span>
+                      A. I am a U.S. citizen or national by birth in the U.S. or
+                      U.S. territory/possession
+                    </span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input
+                      type="radio"
+                      name="citizenship"
+                      value="citizen-naturalized"
+                    />
+                    <span>
+                      B. I am a U.S. citizen, but I was not born in the U.S.
+                    </span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="citizenship" value="alien" />
+                    <span>C. I am not a U.S. citizen</span>
+                  </label>
+                </p>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={6} m={6} l={6} xl={6}>
+                <label>Mother's Maiden Name</label>
+                <input type="text" />
+              </Col>
+            </Row>
           </Col>
         </Row>
 
