@@ -258,6 +258,7 @@ const App: React.FC = () => {
               </Col>
             </Row>
 
+            <p>TODO: conditional naturalization information</p>
             <Row>
               <Col>
                 <p>
@@ -310,6 +311,2433 @@ const App: React.FC = () => {
             </h5>
           </Col>
         </Row>
+
+        <Row>
+          <Col s={6} m={6} l={6} xl={6} className={"bordered"}>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>General Health</b></h6>
+
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b>Yes</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b>No</b></h6>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Good general health</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Recent weight change</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Loss of appetite</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Fatigue</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Fever/chills</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Allergy</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Drug Allergies</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Food allergies</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Hay fever</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Ears, Nose, Mouth, Throat</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Difficulty swallowing</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Earaches</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Loss of hearing/deafness</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Loss of smell</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Loss of taste</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Painful chewing</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Ringing in ears</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Sinus infection</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Sores in mouth</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Eyes</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Blind Spots</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Blurred vision</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Double vision</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Loss of vision</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Glaucoma</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Injury</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Pain</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Gastrointestinal</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Blood in stools</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Increasing constipation</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Nausea</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Painful bowel movements</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Persistent diarrhea</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Stomach or abdominal pain</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Ulcer</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Vomiting</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Genitourinary</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Blood in urine</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Irregular periods</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span># of pregnancies</span>
+              </Col>
+              <Col s={2} m={2} l={2} xl={2}>
+                <input type="number" />
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span># of miscarriages</span>
+              </Col>
+              <Col s={2} m={2} l={2} xl={2}>
+                <input type="number" />
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Vaginal discharge</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Kidney stones</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Prostate disease</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Testicle pain</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Painful or burning urination</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Sexual difficulty</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Sexually transmitted disease</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Urgency with urination</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Urine retention / incontinence</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Hearts and Lungs</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Pain in chest</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>High blood pressure</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>High cholesterol</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Irreglar heart beat</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Muscles/Joints/Bones</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Back pain</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Difficulty walking</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Joint pain</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Joint stiffness or swelling</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Muscle pain or tenderness</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Neck pain</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+
+          <Col s={6} m={6} l={6} xl={6} className="bordered">
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Neurological</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b>Yes</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b>No</b></h6>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Balance trouble</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Blackouts/loss of consciousness</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Difficulty speaking</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Difficulty walking</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Facial drooping</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Headaches</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Injury to the brain or spine</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Might-headed or dizziness</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Memory loss</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Mental Confusion</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Migraines</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Mini stroke</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Neuropathy</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Numbness or tingling</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Paralysis</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Stroke</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Tremors</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Weakness</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Psychiatric</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Depression</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Anxiety</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Eating disorder</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Pulmonary</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Asthma</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Blood in cough</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Cancer</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Chronic or frequent cough</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Emphysema</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Pneumonia</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Shortness of breath</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Skin</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Rash or itching</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Sun sensitivity</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Hair loss</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Color changes</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <Row>
+                  <Col>
+                    <span>Other:</span>
+                  </Col>
+                  <Col>
+                    <input type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <h6><b>Sleep</b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <h6><b></b></h6>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Snoring</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Sleepwalking</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Nightmares</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Do you sleep well?</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Do you feel rested when you wake?</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col s={10} m={10} l={10} xl={10}>
+                <span>Do you fall asleep during the day?</span>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+              <Col s={1} m={1} l={1} xl={1}>
+                <div>
+                  <label>
+                    <input type="checkbox" className="filled-in" />
+                    <span></span>
+                  </label>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+
+
 
         <Row>
           <Col>

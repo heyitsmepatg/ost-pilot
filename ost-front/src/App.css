@@ -7,3 +7,7 @@
   background-color: lightgrey;
   border: 1px solid grey;
 }
+
+.bordered {
+  border: 1px solid grey;
+}
