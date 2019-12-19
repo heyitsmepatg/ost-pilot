@@ -1,0 +1,18 @@
+.site-header {
+    background-color: #525564;
+    padding: 5px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    .site-header {
+        height: 80px;
+    }
+}
+
+/*Small devices (tablets and smaller, 991px and below)*/
+@media(max-width: 991px) {
+    .site-header {
+        height: 60px;
+    }
+}
