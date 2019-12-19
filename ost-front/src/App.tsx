@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Row, Col, Select, RadioGroup } from "react-materialize";
+import { Row, Col, Select } from "react-materialize";
 
 const App: React.FC = () => {
   var privacyStyles = { color: "red" };
@@ -313,7 +313,7 @@ const App: React.FC = () => {
         </Row>
 
         <Row>
-          <Col s={6} m={6} l={6} xl={6} className={"bordered"}>
+          <Col s={6} m={6} l={6} xl={6}>
             <Row>
               <Col s={10} m={10} l={10} xl={10}>
                 <h6><b>General Health</b></h6>
@@ -1756,7 +1756,7 @@ const App: React.FC = () => {
             </Row>
           </Col>
 
-          <Col s={6} m={6} l={6} xl={6} className="bordered">
+          <Col s={6} m={6} l={6} xl={6} >
             <Row>
               <Col s={10} m={10} l={10} xl={10}>
                 <h6><b>Neurological</b></h6>
@@ -2737,6 +2737,145 @@ const App: React.FC = () => {
           </Col>
         </Row>
 
+        <Row>
+          <Col>
+            <Row>
+              <Col>
+
+                <p className={"bold"}>Do you suffer from Chronic Obstructive Pulmonary Disease (COPD), Strokes, Deep Vein Thrombosis (DVT)?</p>
+                <label>
+                  <input
+                    type="radio"
+                    name="copd-question"
+                    value="Yes"
+                  />
+                  <span>Yes</span>
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="copd-question"
+                    value="No"
+                  />
+                  <span>No </span>
+                </label>
+
+                <p className={"bold"}>Do you have a fear of flying or experience significant anxiety or depression while flying?</p>
+                <label>
+                  <input
+                    type="radio"
+                    name="anxiety-question"
+                    value="Yes"
+                  />
+                  <span>Yes</span>
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="anxiety-question"
+                    value="No"
+                  />
+                  <span>No </span>
+                </label>
+                <p className={"bold"}>Do you have a chronic depression or anxiety</p>
+                <label>
+                  <input
+                    type="radio"
+                    name="depression-question"
+                    value="Yes"
+                  />
+                  <span>Yes</span>
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="depression-question"
+                    value="No"
+                  />
+                  <span>No </span>
+                </label>
+                <p className={"bold"}>Are you planning on becoming pregnant in the next 5 years?</p>
+                <label>
+                  <input
+                    type="radio"
+                    name="pregnant-question"
+                    value="Yes"
+                  />
+                  <span>Yes</span>
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="pregnant-question"
+                    value="No"
+                  />
+                  <span>No </span>
+                </label>
+                <p className={"bold"}>Suffer from a physical disability that prevents you from walking?</p>
+                <label>
+                  <input
+                    type="radio"
+                    name="walking-question"
+                    value="Yes"
+                  />
+                  <span>Yes</span>
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="walking-question"
+                    value="No"
+                  />
+                  <span>No </span>
+                </label>
+                <p className={"bold"}>How often do you drink (number of times per week)?</p>
+                <input
+                  type="number"
+                  name="drinking-question"
+                />
+                <p className={"bold"}>How often do you smoke (number of times per week)?</p>
+                <input
+                  type="number"
+                  name="drinking-question"
+                />
+                <p className={"bold"}>Do you use controlled substrances?</p>
+                <label>
+                  <input
+                    type="radio"
+                    name="walking-question"
+                    value="Yes"
+                  />
+                  <span>Yes</span>
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="walking-question"
+                    value="No"
+                  />
+                  <span>No </span>
+                </label>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col s={6} m={6} l={6} xl={6}>
+                <label>Please list your previous surgeries with approximate dates</label>
+                <textarea name="previous-surgeries" className="materialize-textarea" />
+              </Col>
+              <Col s={6} m={6} l={6} xl={6}>
+                <label>Please list any previous injuries you've had</label>
+                <textarea name="previous-injuries" className="materialize-textarea" />
+              </Col>
+            </Row>
+            <Row>
+              <Col >
+                <label>Please list your family medical history for your father, mother, siblings, and children.</label>
+                <textarea name="previous-surgeries" className="materialize-textarea" />
+              </Col>
+            </Row>
+          </Col>
+        </Row>
 
 
         <Row>
@@ -2744,6 +2883,414 @@ const App: React.FC = () => {
             <h5>
               <strong>Criminal & Foreign Activity</strong>
             </h5>
+            <p className={"bold"}>Have you EVER been issued a passport (or identity card for travel) by a country other than the U.S.?</p>
+            <label>
+              <input
+                type="radio"
+                name="passport-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="passport-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you received a written warning, been officially reprimanded, suspended, or disciplined for misconduct in the workplace, such as a violation of a security policy?</p>
+            <label>
+              <input
+                type="radio"
+                name="reprimand-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="reprimand-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you been subject to court martial or other disciplinary procedure under the Uniform Code of Military Justice (UCMJ), such as Article 15, Captain's Mast, Article 135 Court of Inquiry, etc.? (If no prior military service, answer "No".)</p>
+            <label>
+              <input
+                type="radio"
+                name="court-martial-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="court-martial-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Have you EVER served as a civilian or military member in a foreign country's military, intelligence, diplomatic, security forces, militia, other defense force, or government agency?</p>
+            <label>
+              <input
+                type="radio"
+                name="foreign-service-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="foreign-service-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Have you EVER been convicted of an offense involving domestic violence or crime of violence (such as battery or assult) against your child, dependent, cohabitant, spouse, or legally recognized civil union/domestic partner, former spouse or former legally recognized union/domestic partner, or someone with whome you share a child in common?</p>
+            <label>
+              <input
+                type="radio"
+                name="violence-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="violence-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Is there currently a domestic violence protective order or restraining order issued against you?</p>
+            <label>
+              <input
+                type="radio"
+                name="restraining-order-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="restraining-order-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you illegally used any drugs or controlled substances? Use of a drug or controlled substance includes injecting, snorting, inhaling, swallowing, experimenting with or otherwise consuming any drug or controlled substrances.</p>
+            <label>
+              <input
+                type="radio"
+                name="drugs-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="drugs-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you been involed in the illegal purchase, manufacture, cultivation, trafficking, production, transfer, shipping, receiving, handling, or sale of any drug or controlled substance?</p>
+            <label>
+              <input
+                type="radio"
+                name="selling-drugs-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="selling-drugs-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you intentionally engaged in the misuse of prescription drugs, regardless of whether or not the drugs were prescribed for you or someone else?</p>
+            <label>
+              <input
+                type="radio"
+                name="prescription-drugs-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="prescription-drugs-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you been ordered, advised, or asked to seek counseling or treatment as a result of your illegal use of drugs or controlled substances?</p>
+            <label>
+              <input
+                type="radio"
+                name="counseling-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="counseling-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you voluntarily sought counseling or treatment as a result of your use of a drug or controlled substance?</p>
+            <label>
+              <input
+                type="radio"
+                name="counseling-drugs-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="counseling-drugs-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you filed a petition under any chapter of the bankruptcy code?</p>
+            <label>
+              <input
+                type="radio"
+                name="bankrupt-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="bankrupt-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you failed to meet financial obligations due to gambling?</p>
+            <label>
+              <input
+                type="radio"
+                name="bankrupt-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="bankrupt-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you failed to file or pay Federal, state, or other taxes when required by law or ordinance?</p>
+            <label>
+              <input
+                type="radio"
+                name="bankrupt-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="bankrupt-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you been over 120 days delingquent on any debt? (Include financial obligations for which you were the sole debtor, as well as those for which you were a cosigner or guarantor.)</p>
+            <label>
+              <input
+                type="radio"
+                name="delinquent-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="deliquent-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, has your use of alcohol had a negative impact on your work performance, your professional relationships, or resulting in intervention by law enforcement/public safety personnel?</p>
+            <label>
+              <input
+                type="radio"
+                name="alcohol-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="alcohol-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>In the last seven (7) years, have you illegally or without proper authorization accessed or attempted to access any information technology system?</p>
+            <label>
+              <input
+                type="radio"
+                name="hacker-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="hacker-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Are you now or have you EVER been a member of an organization dedicated to terrorism, either with an awareness of the organization's dedication to that end, or with the specific intent to further such activities?</p>
+            <label>
+              <input
+                type="radio"
+                name="terrorism-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="terrorism-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Have you EVER knowlingly engaged in any acts of terrorism?</p>
+            <label>
+              <input
+                type="radio"
+                name="act-of-terrorism-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="act-of-terrorism-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Have you EVER advocated any acts of terrorism or activities design to overthrow the U.S. Government by force?</p>
+            <label>
+              <input
+                type="radio"
+                name="advocated-terrorism-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="advocated-terrorism-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Have you EVER been a member of an organization dedicated to the use of violence to overthrow the U.S. Government, and which engaged in activities to that end with an awareness of the organization's dedication to that end or with the specific intent to further such activities?</p>
+            <label>
+              <input
+                type="radio"
+                name="organization-terrorism-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="organization-terrorism-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Have you EVER been a member of an organization that advocates or practices commission of acts of force or violence to discourage others from exercising their rights under the U.S. Constitution or any state of the United States with the specific intent to further such action?</p>
+            <label>
+              <input
+                type="radio"
+                name="domestic-terrorism-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="domestic-terrorism-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Have you EVER knowingly engaged in activites design to overthrow the U.S. Government by force?</p>
+            <label>
+              <input
+                type="radio"
+                name="overthrow-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="overthrow-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
+            <p className={"bold"}>Have you EVER associated with anyone involved in activities to further terrorism??</p>
+            <label>
+              <input
+                type="radio"
+                name="associated-terrorism-question"
+                value="Yes"
+              />
+              <span>Yes</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="associated-terrorism-question"
+                value="No"
+              />
+              <span>No </span>
+            </label>
           </Col>
         </Row>
 
@@ -2752,6 +3299,8 @@ const App: React.FC = () => {
             <h5>
               <strong>Additional Questions</strong>
             </h5>
+            <label>Tell us why you want to travel to space!</label>
+            <textarea name="why-space" className="materialize-textarea" />
           </Col>
         </Row>
 
@@ -2760,6 +3309,23 @@ const App: React.FC = () => {
             <h5>
               <strong>Attachments</strong>
             </h5>
+            <p>Pleas upload the following documents: a copy of your passport, a copy of your driver's licence, a copy of a recent physical from your doctor (must be within last 6 months), a copy of a recent full blood panel from your doctor (must be within last 6 months).</p>
+            <Row>
+              <Col>
+                <label>Add Attachments</label>
+                <div className="file-field input-field">
+                  <div className="btn">
+                    <span>Browse</span>
+                    <input type="file" multiple />
+                  </div>
+
+                  <div className="file-path-wrapper">
+                    <input className="file-path validate" type="text"
+                      placeholder="Upload" />
+                  </div>
+                </div>
+              </Col>
+            </Row>
           </Col>
         </Row>
 
@@ -2768,8 +3334,41 @@ const App: React.FC = () => {
             <h5>
               <strong>Create Account</strong>
             </h5>
+            <label>Password</label>
+            <input type="text" />
+            <label>Re-enter Password</label>
+            <input type="text" />
           </Col>
         </Row>
+
+        <Row>
+          <Col>
+            <div>
+              <label>
+                <input type="checkbox" className="filled-in" value="yes" />
+                <span>I certify under penalty of law that statements on this form, and any attachments to it, are true, complete, and correct to the best of my knowledge and belief and are made in good faith. I understand that a knowing and willful false statement on this form can be punished by fine or imprisonment or both (See section 1001 of title 18, United States Code).</span>
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="checkbox" className="filled-in" value="yes" />
+                <span>Yes, I'd like to sign up for news and announcements.</span>
+              </label>
+            </div>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <button className="btn" type="submit" name="action">Submit
+            </button>
+          </Col>
+          <Col>
+            <a href="/home">Cancel
+            </a>
+          </Col>
+        </Row>
+
       </form>
     </div>
   );
