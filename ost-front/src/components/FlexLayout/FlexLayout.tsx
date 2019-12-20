@@ -7,10 +7,10 @@ import './FlexLayout.css';
  * It also allows for a sticky footer.
  */
 
- export default function(props) {
-     return (
+export default function (props) {
+    return (
         <div className='flex-wrapper'>
             <div className='site'>{props.children}</div>
         </div>
-     );
- }
+    );
+}
