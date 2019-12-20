@@ -1,7 +1,13 @@
 .container {
   display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+
+main.container {
+  margin-bottom: 30px;
 }
 
 .App {
@@ -32,6 +38,45 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.row {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%; */
+  display: table;
+  width: 100%;
+}
+
+.column--left {
+  float: left;
+  width: 49.5%;
+}
+
+.column--right {
+  float: right;
+  width: 49.5%;
+}
+
+/* .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 5px;
+} */
+
+/* .double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  margin: 5px;
+} */
+
+.section-content {
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {
