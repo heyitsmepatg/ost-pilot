@@ -1,0 +1,33 @@
+.margin-top--none {
+    margin-top: 0;
+}
+
+.column--left {
+    width: 65%;
+}
+
+.column--right {
+    width: 34%;
+}
+
+#home-banner {
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+}
+
+section {
+    border: 1px solid	#808080;
+}
+
+@media(max-width: 600px) {
+    .column--left {
+        display: block;
+        width: 100%;
+    }
+
+    .column--right {
+        display: block;
+        width: 100%;
+    }
+}
