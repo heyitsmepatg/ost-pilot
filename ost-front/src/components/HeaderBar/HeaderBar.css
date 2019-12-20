@@ -21,6 +21,10 @@ div.site-header ul li {
     margin-right: 10px;
 }
 
+div.site-header ul li a {
+    color: white;
+}
+
 span {
     margin-top: auto;
     margin-bottom: auto;
