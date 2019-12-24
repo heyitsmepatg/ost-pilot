@@ -14,11 +14,9 @@ type NewsItemProps = {
 // Determines if we should use React Link or anchor tag
 const LinkToUse: React.FC<NewsItemProps> = (props: NewsItemProps) => {
   const LinkToUse: any = props.externalLink ? (
-    <Link to={props.link}>{props.linkText}</Link>
+    <a href={props.link} target="blank">{props.linkText}</a>
   ) : (
-      <React.Fragment>
-        <a href={props.link} target="blank">{props.linkText}</a>
-      </React.Fragment>
+      <Link to={props.link}>{props.linkText}</Link>
     );
   return LinkToUse
 }

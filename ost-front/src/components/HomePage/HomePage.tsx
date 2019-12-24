@@ -36,21 +36,25 @@ const HomePage: React.FC = () => {
           <div className="section-content">
             <h3 className="margin-top--none">Space News</h3>
             <NewsItem
+              externalLink
               linkText="How NASA's Next Mars Rover Will Hunt for Alien Life"
               description="The strategy involves matching geochemistry with structure."
               link="https://www.space.com/mars-2020-rover-alien-life-hunt.html"
             />
             <NewsItem
+              externalLink
               linkText="THIS DECADE IN ELON"
               description="SpaceX, Tesla, Neuralink, the Boring Company... and, of course, that Twitter account"
               link="https://www.theverge.com/2019/12/12/21011317/elon-musk-tesla-spacex-solarcity-neuralink-boring-company-twitter-decade"
             />
             <NewsItem
+              externalLink
               linkText="Jeff Bezos' Blue Origin has launched and landed a single rocket for the sixth time"
               description="Amazon's CEO, Elon Musk and Richard Branson all want to send the public to space. Bezos took another step toward that goal Wednesday."
               link="https://www.cnet.com/how-to/how-to-watch-jeff-bezos-next-blue-origin-launch-amp-up-the-tycoon-space-race/"
             />
             <NewsItem
+              externalLink
               linkText="NASA Awards Launch Services Contract for Environmental Satellite Mission"
               description="For more information about NASA programs and missions, visit nasa.gov"
               link="https://www.nasa.gov/press-release/nasa-awards-launch-services-contract-for-environmental-satellite-mission"
@@ -61,6 +65,7 @@ const HomePage: React.FC = () => {
               link="/"
             />
             <NewsItem
+              externalLink
               linkText="Senate sends massive defense bill for Trump to sign, creating Space Force"
               description=""
               link="https://www.reuters.com/article/us-usa-defense-congress/senate-sends-massive-defense-bill-for-trump-to-sign-creating-space-force-idUSKBN1YL24C"
